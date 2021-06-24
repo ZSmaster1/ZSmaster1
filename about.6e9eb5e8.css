@@ -1,0 +1,62 @@
+@import url("https://fonts.googleapis.com/css2?family=Lexend:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&display=swap");
+main {
+  height: 100vh;
+}
+main .left {
+  height: 90vh;
+  display: flex;
+  width: calc(100vw / 2);
+  padding-left: 30px;
+  flex-direction: column;
+  float: left;
+}
+main .left .top {
+  margin-top: 10px;
+}
+main .left .top .body {
+  margin-left: 20px;
+}
+main .left .middle {
+  margin-left: 30px;
+  margin-top: 150px;
+}
+main .left .middle h2 {
+  margin-left: 30px;
+}
+main .left .middle .about {
+  width: 500px;
+  margin-left: 30px;
+  color: #ffffff;
+  font-family: "Open Sans";
+}
+main .left .bottom {
+  margin-top: 25vh;
+}
+main .right {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  color: #08fdd8;
+}
+
+@media screen and (max-width: 740px) {
+  main .left .middle {
+    margin-top: 60px;
+  }
+  main .left .middle .about {
+    width: 300px;
+  }
+}
+@media screen and (max-width: 1322px) {
+  main .left .middle .about {
+    width: 200px;
+  }
+  main .right {
+    visibility: hidden;
+    display: none;
+  }
+}
+
+/*# sourceMappingURL=/about.6e9eb5e8.css.map */

@@ -1,0 +1,61 @@
+@import url("https://fonts.googleapis.com/css2?family=Lexend:wght@300&display=swap");
+main {
+  height: 100vh;
+  width: 100;
+}
+main .left {
+  height: 90vh;
+  display: flex;
+  width: calc(100vw / 2);
+  padding-left: 50px;
+  flex-direction: column;
+  float: left;
+}
+main .left .top {
+  margin-top: 10px;
+}
+main .left .top .body {
+  margin-left: 20px;
+}
+main .left .middle {
+  margin-left: 30px;
+  margin-top: 150px;
+}
+main .left .middle h1 {
+  margin-left: 30px;
+}
+main .left .bottom {
+  margin-left: 40px;
+  margin-top: 100px;
+  width: 200px;
+}
+main .left .bottom a {
+  text-decoration: none;
+}
+main .left .bottom a div {
+  background: transparent;
+  outline: none;
+  box-shadow: none;
+  border: 1px solid #08fdd8;
+  height: 50px;
+  width: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: 0.5s;
+  color: #08fdd8;
+  font-family: "Lexend";
+  letter-spacing: 1px;
+}
+main .left .bottom a div:hover {
+  background: #08fdd8;
+  color: black;
+}
+
+@media screen and (max-width: 600px) {
+  main .left {
+    padding-left: 10px;
+  }
+}
+
+/*# sourceMappingURL=/scss.6b84482b.css.map */
